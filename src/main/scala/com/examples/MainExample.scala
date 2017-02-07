@@ -19,7 +19,7 @@ object MainExample {
     
     
     hconf.set("fs.swift.SparkOSCH", "main");
-    // Specify the v2.0 authentical link to your Oracle Storage Cloud Service instance
+    // Specify the v2.0 authentication link to your Oracle Storage Cloud Service instance
     hconf.set("fs.swift.service.main.auth.url", "https://storageid.storage.oraclecloud.com/auth/v2.0/tokens");
     
 
@@ -30,7 +30,7 @@ object MainExample {
      
     // Your storageid 
     hconf.set("fs.swift.service.main.tenant",  "Storage-storageid");
-    
+    // Specify you username and password below
     hconf.set("fs.swift.service.main.username", "Username");
     
     hconf.set("fs.swift.service.main.password", "Password");
